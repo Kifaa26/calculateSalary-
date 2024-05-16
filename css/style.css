@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #04043a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(29, 20, 20, 0.1);
+    width: 80%;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="number"],
+.container input[type="date"],
+.container select {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.container input[type="radio"],
+.container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#workingHoursDiv {
+    display: none;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.success {
+    border: 1px solid green;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-reset {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-reset:hover {
+    background-color: #c82333;
+}
